@@ -16,3 +16,13 @@ Then it provide with a set of options which the organisation uses to sellect the
 Select the number based on which service needed
 
 ###Then it will start to list ####
+
+I created two code 
+  1* my own code filename (aws_resource_list1.sh)
+  2* secound with modified code with AI
+      output: 
+
+![Presentation1](https://github.com/user-attachments/assets/39410f81-016d-42db-b962-966f2ff6e4ed)
+
+
+  
