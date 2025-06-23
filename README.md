@@ -18,7 +18,7 @@ Select the number based on which service needed
 ###Then it will start to list ####
 
 I created two code 
-  1* my own code filename (aws_resource_list1.sh)
+  1* my own code filename (aws_resource_list1.sh).
   2* secound with modified code with AI
       output: 
 
