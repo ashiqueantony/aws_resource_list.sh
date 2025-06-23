@@ -19,6 +19,7 @@ This tool helps DevOps engineers and cloud administrators quickly inventory thei
 
 ## 🖥️ Usage
 
+```bash
 
 #--Welcome to AWS Resource Lister--#
 
@@ -48,17 +49,18 @@ aws_resource_list.sh – Improved version using AI suggestions and refinements
 🧠 Why This Script?
 Managing cloud resources via console can be time-consuming. This CLI tool allows for:
 
-*faster visibility into cloud inventory
+Faster visibility into cloud inventory
 
-*Improved productivity for scripting and automation
+Improved productivity for scripting and automation
 
-*Easy integration with cron jobs or monitoring scripts
+Easy integration with cron jobs or monitoring scripts
 
 
 
 📫 Contact
 Built by Ashik Antony
 Blog: ashikantony.hashnode.dev
+
 
 
 ![Presentation1](https://github.com/user-attachments/assets/39410f81-016d-42db-b962-966f2ff6e4ed)
