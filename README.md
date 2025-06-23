@@ -16,7 +16,7 @@ This tool helps DevOps engineers and cloud administrators quickly inventory thei
   - `aws_resource_list.sh` – Modified version with AI enhancements
 
 ---
-
+![Presentation1](https://github.com/user-attachments/assets/39410f81-016d-42db-b962-966f2ff6e4ed)
 ## 🖥️ Usage
 
 ```bash
