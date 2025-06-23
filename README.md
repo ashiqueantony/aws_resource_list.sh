@@ -1,26 +1,85 @@
+# AWS Resource Lister 🛠️
 
-# aws_resource_list.sh
+A simple and interactive Bash script to list AWS resources across various services in a specific region.  
+This tool helps DevOps engineers and cloud administrators quickly inventory their AWS assets from the CLI.
 
-The script will prompt the user to enter the AWS region and the service for which the resources need to be listed.
+---
 
-Usage: it will ask that :-
-                            #--Welcome to AWS Resource Lister--#
-                            Enter AWS region (e.g., us-east-1): (enter the regien)
+## 📌 Features
 
-Then it provide with a set of options which the organisation uses to sellect the  service you Want to listed,
+- ✅ Interactive prompt for AWS region selection
+- ✅ Easy service selection via numbered options
+- ✅ Supports 14 major AWS services + option to list **all**
+- ✅ Clean and readable output
+- ✅ Two versions available:
+  - `aws_resource_list1.sh` – Your original version
+  - `aws_resource_list.sh` – Modified version with AI enhancements
 
-                           1) ec2               4) cloudfront       7) route53         10) lambda          13) dynamodb
-                           2) rds               5) vpc              8) cloudwatch      11) sns             14) ebs
-                           3) s3                6) iam              9) cloudformation  12) sqs             15) all
+---
 
-Select the number based on which service needed
+## 🖥️ Usage
 
-###Then it will start to list ####
+```bash
+bash aws_resource_list.sh
+You will be prompted like this:
+graphql
+Copy
+Edit
+#--Welcome to AWS Resource Lister--#
 
-I created two code 
-  1* my own code filename (aws_resource_list1.sh).
-  2* secound with modified code with AI
-      output: 
+Enter AWS region (e.g., us-east-1): 
+Then choose the service you'd like to list from the menu below:
+
+python
+Copy
+Edit
+1) ec2               4) cloudfront       7) route53         10) lambda          13) dynamodb  
+2) rds               5) vpc              8) cloudwatch      11) sns             14) ebs  
+3) s3                6) iam              9) cloudformation  12) sqs             15) all
+Just enter the number corresponding to the service you want to list.
+
+✅ Once selected, the script will list the resources for that service in the given region.
+
+🔧 Requirements
+AWS CLI must be installed and configured (aws configure)
+
+IAM user or role should have read access to selected AWS services
+
+📂 Files
+aws_resource_list1.sh – Original version (manual scripting)
+
+aws_resource_list.sh – Improved version using AI suggestions and refinements
+
+🧠 Why This Script?
+Managing cloud resources via console can be time-consuming. This CLI tool allows for:
+
+Faster visibility into cloud inventory
+
+Improved productivity for scripting and automation
+
+Easy integration with cron jobs or monitoring scripts
+
+📎 Example Output
+When you select EC2 and region us-east-1:
+
+diff
+Copy
+Edit
+Listing EC2 instances in region us-east-1...
+- Instance ID: i-0abcdef1234567890
+- State: running
+- Public IP: 3.82.100.15
+...
+📌 License
+This project is open-source and free to use under the MIT License.
+
+🙌 Contributing
+Feel free to fork, raise issues, or submit pull requests to enhance functionality or add more services.
+
+📫 Contact
+Built by Ashik Antony
+Blog: ashikantony.hashnode.dev
+
 
 ![Presentation1](https://github.com/user-attachments/assets/39410f81-016d-42db-b962-966f2ff6e4ed)
 
