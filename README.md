@@ -19,12 +19,7 @@ This tool helps DevOps engineers and cloud administrators quickly inventory thei
 
 ## 🖥️ Usage
 
-```bash
-bash aws_resource_list.sh
-You will be prompted like this:
-graphql
-Copy
-Edit
+
 #--Welcome to AWS Resource Lister--#
 
 Enter AWS region (e.g., us-east-1): 
@@ -53,28 +48,13 @@ aws_resource_list.sh – Improved version using AI suggestions and refinements
 🧠 Why This Script?
 Managing cloud resources via console can be time-consuming. This CLI tool allows for:
 
-Faster visibility into cloud inventory
+*faster visibility into cloud inventory
 
-Improved productivity for scripting and automation
+*Improved productivity for scripting and automation
 
-Easy integration with cron jobs or monitoring scripts
+*Easy integration with cron jobs or monitoring scripts
 
-📎 Example Output
-When you select EC2 and region us-east-1:
 
-diff
-Copy
-Edit
-Listing EC2 instances in region us-east-1...
-- Instance ID: i-0abcdef1234567890
-- State: running
-- Public IP: 3.82.100.15
-...
-📌 License
-This project is open-source and free to use under the MIT License.
-
-🙌 Contributing
-Feel free to fork, raise issues, or submit pull requests to enhance functionality or add more services.
 
 📫 Contact
 Built by Ashik Antony
